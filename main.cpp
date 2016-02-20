@@ -20,10 +20,7 @@ using recognition::SaveSign;
 
 int main(int argc, char *argv[])
 {
-	//CvCapture *video_capture = cvCreateCameraCapture( 0 );
-	//CvCapture *video_capture = cvCreateFileCapture("C:\\Users\\m5171146\\Dropbox\\m5171146\\Research\\Program\\LaserRecognizer2\\data_ipod4\\writer2\\0-9.avi");
-	CvCapture *video_capture = cvCreateFileCapture("C:\\Users\\m5171146\\Dropbox\\m5171146\\Research\\Program\\LaserRecognizer2\\data_c200\\0-9[1].avi");
-
+	CvCapture *video_capture = cvCreateCameraCapture( 0 );
 
 	if (video_capture == NULL) {
 		return EXIT_SUCCESS;
